@@ -1,42 +1,3 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -3356,9 +3317,9 @@ h6 {
 }
 
 .main_btn2:hover {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #fbcf0eb3 0%, #fbcf0e 100%);
+  background-image: -webkit-linear-gradient(0deg, #fbcf0eb3 0%, #fbcf0e 100%);
+  background-image: -ms-linear-gradient(0deg, #fbcf0eb3 0%, #fbcf0e 100%);
   -webkit-box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
   box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
   color: #fff;
@@ -3367,10 +3328,10 @@ h6 {
 .submit_btn {
   width: auto;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#bc2bff), color-stop(51%, #7249fb), to(#bc2bff));
-  background-image: -webkit-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
-  background-image: -o-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
-  background-image: linear-gradient(to right, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fbcf0eb3), color-stop(51%, #fbcf0e), to(#fbcf0eb3));
+  background-image: -webkit-linear-gradient(left, #fbcf0eb3 0%, #fbcf0e 51%, #fbcf0eb3 100%);
+  background-image: -o-linear-gradient(left, #fbcf0eb3 0%, #fbcf0e 51%, #fbcf0eb3 100%);
+  background-image: linear-gradient(to right, #fbcf0eb3 0%, #fbcf0e 51%, #fbcf0eb3 100%);
   background-size: 200% auto;
   padding: 0px 50px;
   color: #fff;
@@ -3415,7 +3376,7 @@ h6 {
 }
 
 .white_btn:hover {
-  background: #6247ea;
+  background: #fbcf0eb3;
   color: #fff;
 }
 
@@ -3592,10 +3553,10 @@ h6 {
 }
 
 .app_btn_area .app_btn:hover .media .d-flex i {
-  background: -webkit-linear-gradient(left, #bb2bff, #7349fb);
-  background: -webkit-gradient(linear, left top, right top, from(#bb2bff), to(#7349fb));
-  background: -o-linear-gradient(left, #bb2bff, #7349fb);
-  background: linear-gradient(left, #bb2bff, #7349fb);
+  background: -webkit-linear-gradient(left, #bb2bff, #fbcf0e);
+  background: -webkit-gradient(linear, left top, right top, from(#fbcf0eb3), to(#fbcf0e));
+  background: -o-linear-gradient(left, #fbcf0eb3, #fbcf0e);
+  background: linear-gradient(left, #fbcf0eb3, #fbcf0e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

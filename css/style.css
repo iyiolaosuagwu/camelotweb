@@ -4050,3 +4050,15 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+.comunity-input{
+  height: 50px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.comunity-input:focus {
+  border-color: #e1d608;
+  border-style: none !important;
+}

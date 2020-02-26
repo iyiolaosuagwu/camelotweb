@@ -101,6 +101,7 @@ button:focus {
   max-width: 570px;
   font-weight: normal;
   margin: auto;
+  letter-spacing: 1px;
 }
 
 .main_title.white h2 {
@@ -128,7 +129,7 @@ button:focus {
 }
 
 .header_area .navbar {
-  background: #fbcf0e;
+  background: #ffb500;
   padding: 0px;
   border: 0px;
   border-radius: 0px;
@@ -332,7 +333,7 @@ button:focus {
 .home_banner_area {
   z-index: 1;
   /* background: url(../img/banner/home-banner.jpg) no-repeat scroll center center; */
-  background-color: #fbcf0e;
+  background-color: #ffb500;
   background-size: cover;
 }
 
@@ -367,6 +368,7 @@ button:focus {
   max-width: 450px;
   margin-bottom: 40px;
   font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .home_banner_area .banner_inner .banner_content .banner_map_img {
@@ -3268,10 +3270,10 @@ h6 {
 ============================================================================================ */
 .main_btn {
   padding: 0px 45px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#fbcf0eb3), color-stop(51%, #fbcf0e), to(#fbcf0eb3));
-  background-image: -webkit-linear-gradient(left, #fbcf0eb3 0%, #fbcf0e 51%, #fbcf0eb3 100%);
-  background-image: -o-linear-gradient(left, #fbcf0eb3 0%, #fbcf0e 51%, #fbcf0eb3 100%);
-  background-image: linear-gradient(to right, #fbcf0eb3 0%, #fbcf0e 51%, #fbcf0eb3 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3ad8c6), color-stop(51%, #3ad8c6), to(#3ad8c6));
+  background-image: -webkit-linear-gradient(left, #3ad8c6 0%, #3ad8c6 51%, #3ad8c6 100%);
+  background-image: -o-linear-gradient(left, #3ad8c6 0%, #3ad8c6 51%, #3ad8c6 100%);
+  background-image: linear-gradient(to right, #3ad8c6 0%, #3ad8c6 51%, #3ad8c6 100%);
   background-size: 200% auto;
   z-index: 2;
   display: inline-block;
@@ -3284,14 +3286,12 @@ h6 {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   line-height: 50px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 235, 59, 0.22);
-  box-shadow: 0px 10px 30px 0px rgba(255, 235, 59, 0.22);
+  border-radius: 10px;
 }
 
 
 .main_btn:hover {
-  background-position: right center;
+  /* background-position: right center; */
   color: #fff;
 }
 
@@ -3386,7 +3386,7 @@ h6 {
   background: #fff;
   color: #222222;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -3396,9 +3396,36 @@ h6 {
 }
 
 .banner_btn:hover {
-  color: #222222;
-  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  background-color: #3ad8c6;
+  /* -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1); */
+}
+
+
+
+.banner_btn_submit {
+  padding: 0px 45px;
+  line-height: 40px;
+  background: #3ad8c6;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+  border: 0;
+  cursor: pointer;
+}
+
+.banner_btn_submit:hover {
+  color: #fff;
+  background-color: #3ad8c6;
+  /* -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1); */
 }
 
 .white_bg_btn {
@@ -3470,6 +3497,7 @@ h6 {
 
 .feature_item p {
   margin-bottom: 0px;
+  letter-spacing: 1px;
 }
 
 /* End Feature Area css
@@ -3503,6 +3531,7 @@ h6 {
 
 .interior_inner .interior_text p {
   margin-bottom: 40px;
+  letter-spacing: 1px;
 }
 
 /* End Feature Area css
@@ -3510,9 +3539,9 @@ h6 {
 /* Download App Area css
 ============================================================================================ */
 .download_app_area {
-  background-image: -moz-linear-gradient(0deg, #fbcf0eb3 0%, #fbcf0e 100%);
-  background-image: -webkit-linear-gradient(0deg, #fbcf0eb3 0%, #fbcf0e 100%);
-  background-image: -ms-linear-gradient(0deg, #fbcf0eb3 0%, #fbcf0e 100%);
+  background-image: -moz-linear-gradient(0deg, #ffb500 0%, #ffb500 100%);
+  background-image: -webkit-linear-gradient(0deg, #ffb500 0%, #ffb500 100%);
+  background-image: -ms-linear-gradient(0deg, #ffb500 0%, #ffb500 100%);
 }
 
 .app_inner {
@@ -3553,10 +3582,10 @@ h6 {
 }
 
 .app_btn_area .app_btn:hover .media .d-flex i {
-  background: -webkit-linear-gradient(left, #bb2bff, #fbcf0e);
-  background: -webkit-gradient(linear, left top, right top, from(#fbcf0eb3), to(#fbcf0e));
-  background: -o-linear-gradient(left, #fbcf0eb3, #fbcf0e);
-  background: linear-gradient(left, #fbcf0eb3, #fbcf0e);
+  background: -webkit-linear-gradient(left, #bb2bff, #3ad8c6);
+  background: -webkit-gradient(linear, left top, right top, from(#3ad8c6), to(#3ad8c6));
+  background: -o-linear-gradient(left, #3ad8c6, #3ad8c6);
+  background: linear-gradient(left, #3ad8c6, #3ad8c6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4061,4 +4090,43 @@ h6 {
 .comunity-input:focus {
   border-color: #e1d608;
   border-style: none !important;
+}
+
+.fix-fontsize{
+  font-size: 14px !important;
+  
+}
+
+.regular-icons {
+  height: 60px;
+  width: 60px;
+  background-color: #3ad8c6;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 35px;
+}
+
+.community{
+  color: #000;
+}
+
+.fix-fontsize{
+  /* font-size: 16px !important; */
+  line-height: 10px;
+}
+
+.icon-img{
+  height: 100%;
+  width: 100%;
+}
+
+.fa-users{
+  font-size: 30px;
+  color: #fff;
+}
+
+.space-label {
+  letter-spacing: 1px;
 }

@@ -77,7 +77,8 @@
 	}
     .navbar .container{
         padding-left: 15px;
-        padding-right: 15px;
+		padding-right: 15px;
+		background-color: #F9B12A;
     }
     .nav{
         padding: 0px 0px;
